@@ -76,7 +76,13 @@ h4{
     text-align: center;
     border: none;
     display: block;
-   /* flex: 0 0 100%;*/
+    flex: 0 0 100%;
+}
+@media ( min-width: 768px ){
+    .boton{
+        display: inline-block;
+        flex: 0 0 auto; /**En caso de que sean hijos **/
+    }
 }
 .boton:hover{ /*Hace que salga la mano al pasar sobre los botones*/
     cursor: pointer;
@@ -112,6 +118,11 @@ h4{
     justify-content: space-between;
     text-align: center;
 }
+@media ( min-width: 768px ){
+    .contenido-header{
+        text-align: left;
+    }
+}
 
 .contenido-header h1{
     color: #ffffff;
@@ -121,38 +132,60 @@ h4{
 }
 
 .barra {
-    display: flex;
-    justify-content: space-evenly; /*alinea verticalmente uno a la derecha y otro a la izquierda*/ 
-    align-items: center;  /*alinea horizontalmente*/
     padding-top: 3rem; /*espacio hacia adentro del elemento */
 }
+@media ( min-width: 768px ){
+    .barra {
+        display: flex;
+        justify-content: space-evenly; /*alinea verticalmente uno a la derecha y otro a la izquierda*/
+        align-items: center;  /*alinea horizontalmente*/
+    }
+}
+
 
 
 /** Navegacion **/
 .navegacion a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.8rem;
-    margin-right: 2rem;
+    font-size: 2.2rem;
+    display: block;
+}
+
+@media ( min-width: 768px ){
+    .navegacion a{
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 1.8rem;
+    }
+    .navegacion a:last-of-type{  /*last-of-type se le conoce como  pseudoselector*/
+        margin: 0;
+    }
 }
 
 .navegacion a:hover{  /*hover se le conoce como  pseudoselector*/
     color: #71b100;
 }
 
-.navegacion a:last-of-type{  /*last-of-type se le conoce como  pseudoselector*/
-    margin: 0;
-}
 
 /** Iconos Nosotros **/
-.iconos-nosotros{
-    display: flex; /** Alinea los recuadros de nostros**/
-    justify-content: space-between;
+@media ( min-width: 768px ){
+    .iconos-nosotros{
+        display: flex; /** Alinea los recuadros de nostros**/
+        justify-content: space-between;
+    }
 }
-.icono{
-    flex-basis: calc(33.3% - 1rem);
+
+
+.icono{/**Mobile first el que aplica todo primero **/
     text-align: center;
 }
+@media ( min-width: 768px ){/**El que aplica despues para pantalla de escritorio**/
+    .icono{
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+
 .icono h3{  /** solo afecta a los h3 del div iconos-nosotros**/
     text-transform: uppercase;
 }
