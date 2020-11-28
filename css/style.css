@@ -656,8 +656,24 @@ h4{
 .mobile-menu img {
     width: 5rem;
 }
+@media ( min-width: 768px ) { /* En 768 va estar oculto el menu*/
+    .mobile-menu{
+        display: none;
+    }
+}
 
+.navegacion:target{ /*target al momento de dar clic ejecuta lo siguiente display block*/
+    display: block;
+}
 
+.navegacion {
+    display: none;
+}
+@media ( min-width: 768px ) {
+    .navegacion{
+        display: block;
+    }
+}
 
 
 /** Iconos Nosotros **/
