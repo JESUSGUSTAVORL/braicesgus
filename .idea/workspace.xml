@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55d389ca-4782-4dcb-9058-d4b5f57d8031" name="Default" comment="">
+    <list default="true" id="55d389ca-4782-4dcb-9058-d4b5f57d8031" name="Default" comment="Agregando responsive CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <workItem from="1576808041436" duration="7422000" />
       <workItem from="1576860904612" duration="10743000" />
       <workItem from="1576940796340" duration="120000" />
-      <workItem from="1581141337196" duration="1571000" />
+      <workItem from="1581141337196" duration="2436000" />
     </task>
     <task id="LOCAL-00001" summary="Colocando Gustavo en contacto y configuracion desde webstorm">
       <created>1576916000440</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576916777152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregando responsive CSS">
+      <created>1581143202587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581143202587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -130,7 +135,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Colocando Gustavo en contacto y configuracion desde webstorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Colocando Gustavo en contacto y configuracion desde webstorm" />
+    <MESSAGE value="Agregando responsive CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando responsive CSS" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="24" key="CommitChangelistDialog2" timestamp="1581143200755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581143200755" />
+    <state x="72" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581143209613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581143209613" />
   </component>
   <component name="masterDetails">
     <states>
