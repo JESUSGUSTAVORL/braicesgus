@@ -653,6 +653,12 @@ h4{
     color: #71b100;
 }
 
+.mobile-menu img {
+    width: 5rem;
+}
+
+
+
 
 /** Iconos Nosotros **/
 @media ( min-width: 768px ){
